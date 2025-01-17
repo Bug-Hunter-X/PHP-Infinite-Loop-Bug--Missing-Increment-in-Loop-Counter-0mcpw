@@ -1,0 +1,1 @@
+This code suffers from a potential infinite loop if the `$i` variable is not incremented within the loop.  The condition `$i < 10` will always evaluate to true, leading to an infinite loop. 
